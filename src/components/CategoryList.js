@@ -16,14 +16,14 @@ class CategoryList extends Component {
       categories: categories
     })
   }
-
+  
   render() {
     const items = this.state.categories.map((item, index) => {
       return <CategoryItem key={index} category={item} />;
     });
 
     return (
-      <ul>{items}</ul>
+      <ul className="categories">{items}</ul>
     );
   }
 }

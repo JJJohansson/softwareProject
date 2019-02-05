@@ -1,5 +1,7 @@
 import Category from '../models/Category';
 
+// normally we would actually fetch data from an external resource
+// but today we hard code
 export default function fetchTestCategories() {
   let categories = [];
 
