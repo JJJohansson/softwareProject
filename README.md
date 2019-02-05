@@ -1,4 +1,6 @@
-Software Project course, Haaga-Helia UAS
+## Software Project course, Haaga-Helia UAS
 
+```
 npm install
 npm start
+```
